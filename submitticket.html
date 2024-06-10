@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a ticket</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main class="main-screen">
+    <aside class="aside-bar">
+      <div>
+        <h2 class="aside-bar-logo">Testify</h2>
+        <ul class="aside-bar-list">
+          <li class="aside-bar-list-button"><a href="/">Tickets</a></li>
+          <li class="aside-bar-list-button"><a href="/submitticket.html">Submit a ticket</a></li>
+          <li class="aside-bar-list-button">Settings</li>
+        </ul>
+      </div>
+
+      <div class="logout-bottom">
+        <button class="aside-bar-list-button">Log out</button>
+      </div>
+    </aside>
+
+    <div class="main-scene">
+      <h2>Submit a ticket</h2>
+
+      <form action="" class="submit-form">
+        <input type="text" placeholder="Type of issue" class="submit-form-input" name="type" id="type" />
+        <textarea type="text" placeholder="Issue's description" class="submit-form-textarea" name="description" id="description"></textarea>
+        <textarea type="text" placeholder="Steps to its reproduction" class="submit-form-textarea" name="steps" id="steps"></textarea>
+        <textarea type="text" placeholder="Impact to the business" class="submit-form-textarea" name="impact" id="impact"></textarea>
+        <button type="submit" class="submit-form-button">Submit ticket</button>
+      </form>
+
+      <script src="submit.js"></script>
+    </div>
+  </main>
+</body>
+</html>
