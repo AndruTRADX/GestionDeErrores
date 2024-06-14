@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Submit a ticket</title>
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="stylesheet" href="../styles/sidebar.css">
-  <link rel="stylesheet" href="../styles/submitticket.css">
+  <link rel="stylesheet" href="../styles/signin.css">
+  <title>Sign in</title>
 </head>
 <body>
   <main class="main-screen">
@@ -26,14 +26,13 @@
     </aside>
 
     <div class="main-scene main-scene-center">
-      <h2>Submit a ticket</h2>
+      <h2>Sign in</h2>
 
-      <form action="" class="submit-form">
-        <input type="text" placeholder="Type of issue" class="submit-form-input" name="type" id="type" />
-        <textarea type="text" placeholder="Issue's description" class="submit-form-textarea" name="description" id="description"></textarea>
-        <textarea type="text" placeholder="Steps to its reproduction" class="submit-form-textarea" name="steps" id="steps"></textarea>
-        <textarea type="text" placeholder="Impact to the business" class="submit-form-textarea" name="impact" id="impact"></textarea>
-        <button type="submit" class="submit-form-button">Submit ticket</button>
+      <form action="" class="sign-in-form">
+        <input type="email" placeholder="email" class="sign-in-form-input" />
+        <input type="password" placeholder="password" class="sign-in-form-input" />
+        <p class="sign-in-paragraph">Don't you have an account? <a href="signup.html" class="sign-in-link">Sign up</a>.</p>
+        <button class="sign-in-form-button">Sign in</button>
       </form>
 
       <script src="../code/submitticket.js"></script>

@@ -42,3 +42,8 @@ ul {
   background-color: #f3f4f6;
   overflow-y: auto;
 }
+
+.main-scene-center {
+  justify-content: center;
+  padding-bottom: 8rem;
+}
