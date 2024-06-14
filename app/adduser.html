@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add user</title>
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="stylesheet" href="../styles/sidebar.css">
-  <link rel="stylesheet" href="../styles/signin.css">
-  <title>Sign in</title>
+  <link rel="stylesheet" href="../styles/adduser.css">
 </head>
-
 <body>
   <main class="main-screen">
     <aside class="aside-bar">
@@ -30,19 +28,13 @@
     </aside>
 
     <div class="main-scene main-scene-center">
-      <h2>Sign in</h2>
+      <h2>Invite user</h2>
 
-      <form action="" class="sign-in-form">
-        <input type="email" placeholder="email" class="sign-in-form-input" />
-        <input type="password" placeholder="password" class="sign-in-form-input" />
-        <p class="sign-in-paragraph">Don't you have an account? <a href="signup.html" class="sign-in-link">Sign up</a>.
-        </p>
-        <button class="sign-in-form-button">Sign in</button>
+      <form action="" class="add-user-form">
+        <input type="email" placeholder="email" class="add-user-form-input" name="email" id="email" />
+        <button type="submit" class="add-user-form-button">Invite user</button>
       </form>
-
-      <script src="../code/"></script>
     </div>
   </main>
 </body>
-
 </html>

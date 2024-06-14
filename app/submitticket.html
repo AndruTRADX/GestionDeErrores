@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="../styles/sidebar.css">
   <link rel="stylesheet" href="../styles/submitticket.css">
 </head>
+
 <body>
   <main class="main-screen">
     <aside class="aside-bar">
@@ -16,12 +18,14 @@
         <ul class="aside-bar-list">
           <a class="aside-bar-list-button" href="/">Tickets</a>
           <a href="submitticket.html" class="aside-bar-list-button">Submit a ticket</a>
+          <a href="adduser.html" class="aside-bar-list-button">Add user</a>
           <li class="aside-bar-list-button">Settings</li>
         </ul>
       </div>
 
       <div class="logout-bottom">
         <a href="signin.html" class="aside-bar-list-button">Sign in</a>
+        <a href="profile.html" class="aside-bar-list-button">Your profile</a>
       </div>
     </aside>
 
@@ -30,9 +34,12 @@
 
       <form action="" class="submit-form">
         <input type="text" placeholder="Type of issue" class="submit-form-input" name="type" id="type" />
-        <textarea type="text" placeholder="Issue's description" class="submit-form-textarea" name="description" id="description"></textarea>
-        <textarea type="text" placeholder="Steps to its reproduction" class="submit-form-textarea" name="steps" id="steps"></textarea>
-        <textarea type="text" placeholder="Impact to the business" class="submit-form-textarea" name="impact" id="impact"></textarea>
+        <textarea type="text" placeholder="Issue's description" class="submit-form-textarea" name="description"
+          id="description"></textarea>
+        <textarea type="text" placeholder="Steps to its reproduction" class="submit-form-textarea" name="steps"
+          id="steps"></textarea>
+        <textarea type="text" placeholder="Impact to the business" class="submit-form-textarea" name="impact"
+          id="impact"></textarea>
         <button type="submit" class="submit-form-button">Submit ticket</button>
       </form>
 
@@ -40,4 +47,5 @@
     </div>
   </main>
 </body>
+
 </html>
