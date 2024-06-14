@@ -30,3 +30,81 @@
   font-size: 14px;
   color: var(--primary-text-color);
 }
+
+.projects-container {
+  display: flex;
+  width: 100%;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid var(--border-primary-color);
+  padding: 0.5rem;
+  background-color: var(--text-white);
+  border-radius: 0.5rem;
+}
+
+.project-name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.project-card-state  {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.project-card h4 {
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+
+.project-card-state-test {
+  font-size: 12px;
+  color: var(--secondary-text-color);
+}
+
+.project-card-state-icon {
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+.project-card-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.project-card-detail {
+  font-size: 10px;
+  color: var(--secondary-text-color);
+}
+
+.project-card-date {
+  font-size: 12px;
+  color: var(--primary-text-color);
+}
+
+.project-card-button {
+  display: flex;
+  border: 1px solid var(--border-primary-color);
+  background-color: var(--text-white);
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+.project-card-button:hover {
+  background-color: var(--text-secondary-hover);
+}
+
+.project-card-button-image {
+  width: 16px;
+  height: 16px;
+}

@@ -66,8 +66,12 @@
 
   .aside-bar-icon {
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  .aside-bar-list-button {
+    padding: 0.5rem;
   }
 }
 
