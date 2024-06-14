@@ -47,3 +47,9 @@ ul {
   justify-content: center;
   padding-bottom: 8rem;
 }
+
+@media screen and (max-width: 540px) {
+  .main-scene {
+    padding: 1.25rem;
+  }
+}

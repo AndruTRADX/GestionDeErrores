@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 1rem;
   row-gap: 1rem;
   height: 100vh;
   width: 220px;
@@ -53,4 +53,30 @@
   align-items: center;
   border-top: 1px solid var(--border-primary-color);
   padding-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .aside-bar-span {
+    display: none;
+  }
+
+  .aside-bar {
+    width: max-content;
+  }
+
+  .aside-bar-icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .aside-bar-span {
+    display: inline-block;
+  }
+
+  .aside-bar-icon {
+    display: none;
+  }
 }

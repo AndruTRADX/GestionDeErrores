@@ -1,0 +1,32 @@
+.main-profile {
+  width: 100%;
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-primary-color);
+}
+
+.main-profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: var(--secondary-text-color);
+  opacity: 0.25;
+}
+
+.main-profile-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.main-profile-details h2 {
+  font-size: 18px;
+  color: var(--primary-text-color);
+}
+
+.main-profile-details p {
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
